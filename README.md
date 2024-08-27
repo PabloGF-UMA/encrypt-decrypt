@@ -7,7 +7,6 @@ The encrypt function modifies the original string in place by XORing each charac
 Let's say the input string is "Hello". The encryption process runs as follows:
   The ASCII value of 'H' (72) is XORed with 31, resulting in a new character.
   The process is repeated for each character in the string.
-  Result: The original string is replaced with its "encrypted" version.
   
 For example:
   'H' (ASCII 72) XOR 31 → 103 (a non-printable character, just for illustration)
